@@ -1,0 +1,442 @@
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  margin: 0 auto;
+}
+
+/* TODAS LAS CAJAS */
+/* TODAS LAS CAJAS */
+/* TODAS LAS CAJAS */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.imagen-logo {
+  width: 54px;
+}
+.logo {
+  margin-left: 17px;
+}
+.contenedor-menu {
+  margin: 27px 27px;
+}
+.menu {
+  background-color: black;
+  width: 36px;
+  height: 6px;
+  margin-bottom: 5px;
+}
+.boton {
+  padding: 20px 20px;
+}
+.perfil {
+  width: 318px;
+  padding: 20px 20px 0;
+}
+
+.servicios {
+  background-color: tomato;
+  height: 1375px;
+}
+.titulo-servicios {
+  display: flex;
+  color: white;
+  font-size: 30px;
+  align-items: center;
+  flex-direction: column;
+  padding: 70px 52px 50px;
+}
+.todos-servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.contenido-servicios {
+  align-items: center;
+  padding-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.monitor-img {
+  height: 120px;
+  width: 120px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.que-hago {
+  height: 28px;
+  font-size: 24px;
+  color: white;
+}
+.parrafo-cosas {
+  width: 262px;
+  height: 117px;
+  text-align: center;
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.contenedor-main {
+  background-color: black;
+  width: auto;
+  height: 538px;
+}
+.soy-maxi {
+  color: white;
+  width: 271px;
+  height: 44px;
+  font-size: 32px;
+  text-align: center;
+  padding: 55px 52px;
+}
+.sobre-mi {
+  margin: 0 31px;
+  width: 312px;
+  height: 193px;
+  color: white;
+  font-size: 16px;
+  justify-content: center;
+}
+.check {
+  background-color: #4caf50;
+  border: solid 2px #ffd953;
+  border-radius: 12px;
+  height: 80px;
+  width: 80px;
+  margin: 57px 147px 68px;
+}
+.check-img {
+  height: 23.3355712890625px;
+  width: 34.171749114990234px;
+  padding: 30px 25px 26px;
+}
+.formulario {
+  background-color: black;
+}
+.escribime {
+  padding: 70px 52px 20px;
+  width: 271px;
+  height: 55.81px;
+  color: white;
+  font-size: 32px;
+  text-align: center;
+}
+.fielset {
+  color: white;
+  display: block;
+  justify-content: center;
+}
+.label {
+  width: 54px;
+  height: 15px;
+  display: block;
+  font-size: 18px;
+  margin: 0 20px;
+  padding: 9px 0;
+}
+.input {
+  width: 335px;
+  height: 45px;
+  display: block;
+  margin: 0 20px;
+  font-size: 24px;
+}
+.text-area {
+  width: 335px;
+  height: 113px;
+  margin: 0 20px;
+  font-size: 18px;
+}
+.boton-enviar {
+  background-color: #ffd953;
+  color: black;
+  text-align: center;
+  width: 340px;
+  height: 60px;
+  margin: 50px 20px;
+  border-radius: 20px;
+}
+
+.footer {
+  background-color: grey;
+  width: auto;
+  height: 500px;
+ }
+.cr {
+  height: 30px;
+  width: 70px;
+  font-size: 10px;
+  text-align: center;
+  padding-left: 15px;
+  padding-bottom: 10px;
+}
+.redes {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  padding-left: 19px;
+  padding-bottom: 30px;
+  gap: 10px;
+}
+.red-img {
+  height: 27px;
+  width: 27px;
+  padding-right: 15px;
+}
+.nombre-red {
+  font-size: 16px;
+}
+.menu-dos {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 15px;
+  font-size: 20px;
+}
+/* OPCIONES PARA CEL */
+/* OPCIONES PARA CEL */
+/* OPCIONES PARA CEL */
+/* ---------------------- */
+
+@media (max-width: 375px) {
+  .menu-dos {
+    display: none;
+  }
+  .foto-perfil {
+    width: 340px;
+    padding: 20px 0 0;
+  }
+  .titulo {
+    font-size: 42px;
+    padding: 40px 20px 0;
+    text-align: center;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+  }
+  .monitor-img {
+    margin: 18px 119px;
+    width: 138px;
+    height: 128px;
+    display: block;
+  }
+}
+
+/* OPCIONES PARA DESKTOP */
+/* OPCIONES PARA DESKTOP */
+/* OPCIONES PARA DESKTOP */
+/* ---------------------- */
+
+@media (min-width: 900px) {
+  .menu {
+    display: none;
+  }
+  .menu-dos {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 15px;
+    font-size: 20px;
+  }
+  .titulo {
+    margin: 0 auto;
+    float: left;
+    width: 313px;
+    color: darkblue;
+    font-size: 60px;
+    padding: 20px 40px 0 100px;
+    text-align: center;
+  }
+  .perfil {
+    float: right;
+  }
+  .foto-perfil {
+    height: 200px;
+    width: 300px;
+  }
+  .servicios {
+    background-color: tomato;
+    height: 610px;
+  }
+  .titulo-servicios {
+    font-size: 48px;
+    align-content: center;
+  }
+  .todos-servicios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .parrafo-cosas {
+    font-size: 20px;
+  }
+  .contenedor-main {
+    margin-top: 220px;
+  }
+  .logo {
+    margin: 20px 30px;
+  }
+  .soy-maxi {
+    color: white;
+    width: 271px;
+    height: 44px;
+    margin: 0 auto;
+    padding: 90px 0 60px;
+  }
+  .sobre-mi {
+    color: white;
+    width: 530px;
+    height: 165px;
+    float: right;
+    font-size: 26px;
+    padding-right: 140px;
+  }
+  .logo {
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+  }
+  .check {
+    background-color: #4caf50;
+    border: solid 6px #ffd953;
+    border-radius: 12px;
+    height: 150px;
+    width: 150px;
+    margin-left: 200px;
+  }
+  .check-img {
+    height: 45px;
+    width: 50px;
+    padding: 55px;
+  }
+  .formulario {
+    background-color: black;
+    width: auto;
+  }
+  .escribime {
+    font-size: 60px;
+  }
+  .fielset {
+    display: grid;
+    justify-content: center;
+  }
+  .input {
+    width: 600px;
+    height: 45px;
+  }
+  .text-area {
+    width: 600px;
+    height: 150px;
+  }
+  .boton-enviar {
+    background-color: #ffd953;
+    color: black;
+    text-align: center;
+    height: 60px;
+    width: auto;
+    border-radius: 20px;
+    margin: 20px;
+  }
+
+  .footer {
+    background-color: grey;
+    width: auto;
+    height: auto;
+  }
+  .cr {
+    height: 50px;
+    width: 70px;
+    font-size: 12px;
+    margin: 0 auto;
+  }
+  .redes {
+    display: grid;
+    justify-content: end;
+    margin-right: 100px;
+    gap: 5px;
+    padding-top: 20px;
+  }
+  .imagen-logo-footer{
+    float: left;
+    height: 150px;
+    width: 150px;
+    margin: 10px 20px;
+  }
+}
+
+
+/* OTRAS MEDIAS PARA QUE NO EXPLOTE */
+/* OTRAS MEDIAS PARA QUE NO EXPLOTE */
+/* OTRAS MEDIAS PARA QUE NO EXPLOTE */
+
+@media(max-width: 899px){
+  .menu-dos {
+    display: none;
+  }
+  .foto-perfil {
+    width: 340px;
+    padding: 20px 0 0;
+  }
+  .titulo {
+    font-size: 42px;
+    padding: 40px 20px 0;
+    text-align: center;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+  }
+  .monitor-img {
+    margin: 18px 119px;
+    width: 138px;
+    height: 128px;
+    display: block;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+  }
+  .soy-maxi {
+    color: white;
+    width: 271px;
+    height: 44px;
+    font-size: 32px;
+    text-align: center;
+    padding: 55px 52px;
+  }
+  .sobre-mi {
+    margin: 0 31px;
+    width: 312px;
+    height: 193px;
+    color: white;
+    font-size: 16px;
+    justify-content: center;
+  }
+  .contenedor-main {
+    background-color: black;
+    width: auto;
+    height: 538px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.perfil {
+  width: 318px;
+} 
+}
